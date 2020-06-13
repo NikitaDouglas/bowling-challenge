@@ -20,3 +20,18 @@ so I changed the obviously customisable options (`description`, `author` etc.) a
 Setting up ESLint itself was similarly obfuscated by my lack of knowledge about what exactly I wanted my linter to do. I went for the
 "To check syntax, find problems, and enforce code style" option and then defined my style using the `Player.js` file provided by Jasmine.
 Guess I'll be using ES5 syntax.
+
+*Sat 13 Jun 2020 15:08:28 BST - Class Diagram*
+
+So, Javascript is very new to me. I know that I have to create objects to handle bits of my program and that each object should ideally be
+responsible for just one thing, as per the principles of Object Oriented Design. When I did the Thermostat challenge this week, I
+used the constructor/prototype pattern to create the thermostat, creating an object that contained functions. I think, if my understanding of JS is correct,
+my object (prototype object?) can also have properties. The thing I'm uncertain of with regards to my bowling challenge is whether the objects I create
+should store their data as properties or as private functions with the `this._someFunction` syntax. I feel like I'm leaning towards the first because
+my understanding of it is that data should be kept in an object and functions that allow access to that data should only be used when access is needed.
+
+Well, uncertainty aside, I have created a vague class diagram that I will definitely be changing as I go along. It details five objects - GamePlay, Rolls,
+Frame, FrameStore, and Score, all responsible for different bits of the programme. I'm not entirely sure how they will all interact yet, but I have a vague notion
+that some objects will need to call functions from other objects in order to allow the user to progress through inputting their data into the scorecard.
+
+I'm not going to start with the GamePlay class because that seems more like a wrapper class. Also I need to start with simple things and give myself some quick wins. 
