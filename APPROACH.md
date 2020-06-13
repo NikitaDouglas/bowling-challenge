@@ -34,4 +34,8 @@ Well, uncertainty aside, I have created a vague class diagram that I will defini
 Frame, FrameStore, and Score, all responsible for different bits of the programme. I'm not entirely sure how they will all interact yet, but I have a vague notion
 that some objects will need to call functions from other objects in order to allow the user to progress through inputting their data into the scorecard.
 
-I'm not going to start with the GamePlay class because that seems more like a wrapper class. Also I need to start with simple things and give myself some quick wins. 
+I'm not going to start with the GamePlay class because that seems more like a wrapper class. Also I need to start with simple things and give myself some quick wins.
+
+*Sat 13 Jun 2020 15:28:41 BST - Clarifying Process Order*
+
+In case it wasn't clear, I'm going to do the 'business logic' of this challenge first. The html nonsense can wait for later. JQuery after that. CSS doesn't exist 
