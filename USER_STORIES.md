@@ -9,3 +9,8 @@ As a bowler,
 So that I can contribute towards my score,
 I want to enter the number of pins I knocked with my first role on my scorecard.
 ```
+```
+As a bowler,
+So that I can continue to contribute towards my score,
+I want to enter the number of pins I knocked with my second role on my scorecard.
+```
