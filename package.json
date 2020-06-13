@@ -1,0 +1,26 @@
+{
+  "name": "bowling-challenge",
+  "version": "1.0.0",
+  "description": "A browser-based interactive bowling scorecard.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikitaDouglas/bowling-challenge.git"
+  },
+  "author": "Nikita Douglas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikitaDouglas/bowling-challenge/issues"
+  },
+  "homepage": "https://github.com/NikitaDouglas/bowling-challenge#readme"
+}
